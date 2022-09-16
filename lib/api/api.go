@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func GetRequest(url string) (Response) {
+func GetRequest(url string) Response {
 	response, err := http.Get(url)
 	var returnResponse Response
 
