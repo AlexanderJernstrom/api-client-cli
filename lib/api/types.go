@@ -1,4 +1,8 @@
 package api
 
 
-type Response struct {}
+type Response struct {
+	StatusCode int
+	RawResponse string
+	ResponseType string
+}
